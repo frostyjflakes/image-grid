@@ -28,27 +28,25 @@ img {
 
 img:nth-child(1) {
   float: left;
-  width: 66.6666%;
+  width: 100%;
 }
 
 img:nth-child(2) {
-  float: left;
-  width: 3.3334%;
+  display: none;
 }
 
 img:nth-child(3) {
   float: left;
-  width: 33.3333%;
+  width: 100%;
 }
 
 img:nth-child(4) {
   float: left;
-  width: 33.3333%;
+  width: 100%;
 }
 
 img:nth-child(5) {
-  float: left;
-  width: 33.3333%;
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
@@ -59,21 +57,25 @@ img:nth-child(5) {
   }
 
   img:nth-child(2) {
-    display: none;
+    display: block;
+    float: left;
+    width: 50%;
   }
 
   img:nth-child(3) {
     float: left;
-    width: 100%;
+    width: 50%;
   }
 
   img:nth-child(4) {
     float: left;
-    width: 100%;
+    width: 50%;
   }
 
   img:nth-child(5) {
-    display: none;
+    display: block;
+    float: left;
+    width: 50%;
   }
 
 }
@@ -86,37 +88,6 @@ img:nth-child(5) {
   }
 
   img:nth-child(2) {
-    display: block;
-    float: left;
-    width: 50%;
-  }
-
-  img:nth-child(3) {
-    float: left;
-    width: 50%;
-  }
-
-  img:nth-child(4) {
-    float: left;
-    width: 50%;
-  }
-
-  img:nth-child(5) {
-    display: block;
-    float: left;
-    width: 50%;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  img:nth-child(1) {
-    float: left;
-    width: 100%;
-  }
-
-  img:nth-child(2) {
     float: left;
     width: 33.3333%;
   }
@@ -133,6 +104,35 @@ img:nth-child(5) {
 
   img:nth-child(5) {
     display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  img:nth-child(1) {
+    float: left;
+    width: 66.6666%;
+  }
+
+  img:nth-child(2) {
+    float: left;
+    width: 3.3334%;
+  }
+
+  img:nth-child(3) {
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(4) {
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(5) {
+    float: left;
+    width: 33.3333%;
   }
 
 }
