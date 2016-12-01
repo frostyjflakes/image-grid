@@ -113,26 +113,31 @@ img:nth-child(5) {
   img:nth-child(1) {
     float: left;
     width: 66.6666%;
+    display: inline-block;
   }
 
   img:nth-child(2) {
     float: left;
     width: 3.3334%;
+    display: inline-block;
   }
 
   img:nth-child(3) {
     float: left;
     width: 33.3333%;
+    display: inline-block;
   }
 
   img:nth-child(4) {
     float: left;
     width: 33.3333%;
+    display: inline-block;
   }
 
   img:nth-child(5) {
     float: left;
     width: 33.3333%;
+    display: inline-block;
   }
 
 }
