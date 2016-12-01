@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 img:nth-child(1) {
   float: left;
   width: 66.6666%;
